@@ -3,7 +3,7 @@
   <head>
   <title>Список пользователей</title>
   <meta charset='utf-8'>
-  <link rel="stylesheet" href="my_progect_php/ajax/list.css">
+  <link rel="stylesheet" href="list.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
   <script type="text/javascript">
     // Назначить обработчики события click
@@ -22,6 +22,7 @@
     });
   </script>
   </head>
+
   <body>
     <div id="list">
       <?php
@@ -45,6 +46,7 @@
         }
       ?>
     </div>
+
     <div id='info' class='hidden'></div>
   </body>
 </html>
