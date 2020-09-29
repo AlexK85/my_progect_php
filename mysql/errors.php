@@ -1,6 +1,6 @@
 <?php ## Ошибочный запрос
-  require_once("connect_db.php");
-  // require_once("connect.php");
+  // require_once("connect_db.php");
+  require_once("connect.php");
 
   try {
     $query = "SELECT VERSION1() AS version";

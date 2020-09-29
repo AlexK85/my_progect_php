@@ -1,7 +1,7 @@
 <?php ## Обработка ошибки соединения с базой данных
   try {
     $pdo = new PDO(
-      'mysql:host=localhost;dbname=test',
+      'mysql:host=localhost;dbname=forum',
       'root',
       '',
       [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
