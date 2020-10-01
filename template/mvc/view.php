@@ -15,6 +15,12 @@
 <?php foreach ($book as $id => $e) { ?>
   Имя человека: <?=$e['name']?><br />
   Его комментарий:<br /> <?=nl2br($e['text'])?><hr />
-<?php } ?>
+<?php } ?> 
+
+    <!-- Пример активного шаблона -->
+<foreach src="Book">
+  Имя человека: $name<br />
+  Его комментарий:<br /> $text <hr />
+</foreach>
 
 </body></html> 
